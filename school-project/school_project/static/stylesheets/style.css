@@ -1,0 +1,39 @@
+div{
+    border:1px solid grey;
+    width:45%;
+    float:left;
+    text-align: center;
+    margin:30px;
+    height:250px;
+    background-color: aquamarine;
+}
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    background-color: yellow;
+    color:red;
+    text-align: center;
+}
+img{
+    width:50;
+    height:50;
+}
+h2{
+    text-align: center;
+    background-color:blue;
+    color: whitesmoke;
+}
+body{
+    background-color: aqua;
+}
+button{
+    background-color: gray;
+    color: whitesmoke;
+    width:150px;
+}
+button:hover{
+    background-color: blue;
+    color: black;
+}

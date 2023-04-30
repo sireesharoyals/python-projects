@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>admission report</title>
+    </head>
+    <body>
+        <h1>Admission Report in 2022-2023</h1>
+        <br>
+        <table border="1px">
+            <tr>
+                <th>name</th>
+                <th>classname</th>
+                <th>fathername</th>
+                <th>contact</th>
+            </tr>
+            {% for s in allstudents %}
+            <tr style="text-align: center;">
+                <td>{{s.name}}</td>
+                <td>{{s.classname}}</td>
+                <td>{{s.fathername}}</td>
+                <td>{{s.contact}}</td>
+            </tr>
+            {% endfor %}
+
+
+    </table>
+       
+    </body>
+</html>

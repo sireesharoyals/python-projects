@@ -1,0 +1,27 @@
+{% load static %}
+<html>
+    <head>
+        <title>its a homepage</title>
+        <link rel="stylesheet" href="{% static "stylesheets/style.css"%}"/>
+
+    </head>
+    <body>
+        <h2> <img src="{% static 'images/school-logo.jpg'%}" alt=""/>
+            Javahar Navodaya Vidyalaya
+        </h2>
+        <br>
+        <hr><br><br><br>
+        <div class="module">
+            <h1>Admission</h1><br><br>
+            <a href="./ad/newadm"><button type="submit" name="submit">addadmission</button></a><br><br>
+            <a href="./ad/admreport"><button type="submit" name="submit">admissionreport</button></a><br><br>
+        </div>
+        <div class="module">
+            <h1>Finance</h1><br><br>
+            <a href="./fin/feecoll"><button type="submit" name="submit">fee collection</button></a><br><br>
+            <a href="./fin/duereport"><button type="submit" name="submit">fee dues report</button></a><br><br>
+            <a href="./fin/collreport"><button type="submit" name="submit">fee collection report</button></a>
+        </div>
+        
+    </body>
+</html>
